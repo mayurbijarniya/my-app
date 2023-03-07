@@ -115,27 +115,28 @@
 // // const myElement = <Book name = "fundamental of React js"/>;
 
 // const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(<Book />);
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./NavigationBar.css";
+// // root.render(<Book />);
 
-function NavigationBar() {
-  return (
-    <nav className="navigation-bar">
-      <ul>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/">About</a>
-        </li>
-        <li>
-          <a href="/">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  );
-}
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<NavigationBar />);
+// import React from "react";
+// import ReactDOM from "react-dom/client";
+// import "./NavigationBar.css";
+
+// function NavigationBar() {
+//   return (
+//     <nav className="navigation-bar">
+//       <ul>
+//         <li>
+//           <a href="/">Home</a>
+//         </li>
+//         <li>
+//           <a href="/">About</a>
+//         </li>
+//         <li>
+//           <a href="/">Contact</a>
+//         </li>
+//       </ul>
+//     </nav>
+//   );
+// }
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<NavigationBar />);
